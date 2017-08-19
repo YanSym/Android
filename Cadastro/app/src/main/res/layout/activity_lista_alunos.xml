@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lista_alunos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.caelum.cadastro.ListaAlunosActivity">
+
+    <ListView
+        android:id="@+id/lista_alunos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/lista_alunos_floating_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/fundo"
+        android:layout_margin="15dp"
+        android:layout_gravity="bottom|end"
+        />
+</android.support.design.widget.CoordinatorLayout>
